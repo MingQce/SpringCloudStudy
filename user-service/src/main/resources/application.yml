@@ -1,8 +1,14 @@
-server:
-  port: 8101
+
 spring:
+  application:
+    name: userservice
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://8.149.141.81:3306/cloudstudy
     username: test
     password: P@ssW0rd
+eureka:
+  client:
+    # 跟上面一样，需要指向Eureka服务端地址，这样才能进行注册
+    service-url:
+      defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka
