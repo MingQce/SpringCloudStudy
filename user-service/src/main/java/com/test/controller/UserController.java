@@ -15,7 +15,6 @@ public class UserController {
     UserService service;
 
     //这里以RESTFul风格为例
-    @LoadBalanced
     @RequestMapping("/user/{uid}")
     public User findUserById(@PathVariable("uid") int uid){
         System.out.println("我被调用了");
