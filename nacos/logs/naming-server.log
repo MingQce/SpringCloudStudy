@@ -1,0 +1,210 @@
+2024-05-06 13:39:28,487 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-05-06 13:39:28,487 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-05-06 13:39:28,487 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-05-06 13:39:28,489 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-05-06 13:39:29,340 INFO Load instance extension handler []
+
+2024-05-06 13:39:39,089 INFO Client connection 192.168.2.126:60544#true connect
+
+2024-05-06 13:39:39,224 INFO Client connection 192.168.60.1:8202#true connect
+
+2024-05-06 13:39:39,225 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 192.168.60.1:8202#true
+
+2024-05-06 13:39:41,201 INFO Client connection 192.168.2.126:51600#true connect
+
+2024-05-06 13:39:41,259 INFO Client connection 192.168.60.1:8201#true connect
+
+2024-05-06 13:39:41,261 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 192.168.60.1:8201#true
+
+2024-05-06 13:39:42,895 INFO Client connection 192.168.2.126:61143#true connect
+
+2024-05-06 13:39:42,952 INFO Client connection 192.168.60.1:8102#true connect
+
+2024-05-06 13:39:42,952 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 192.168.60.1:8102#true
+
+2024-05-06 13:39:44,403 INFO Client connection 192.168.2.126:57073#true connect
+
+2024-05-06 13:39:44,450 INFO Client connection 192.168.60.1:8101#true connect
+
+2024-05-06 13:39:44,450 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 192.168.60.1:8101#true
+
+2024-05-06 13:39:46,356 INFO Client connection 192.168.2.126:62557#true connect
+
+2024-05-06 13:39:46,410 INFO Client connection 192.168.60.1:8301#false connect
+
+2024-05-06 13:40:21,206 INFO Client connection 192.168.2.126:62557#true disconnect, remove instances and subscribers
+
+2024-05-06 13:40:59,142 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+
+2024-05-06 13:42:24,191 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 192.168.60.1:8202#true
+
+2024-05-06 13:42:24,237 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 192.168.60.1:8201#true
+
+2024-05-06 13:42:24,266 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 192.168.60.1:8102#true
+
+2024-05-06 13:42:24,284 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 192.168.60.1:8101#true
+
+2024-05-06 13:42:31,388 INFO Client connection 192.168.2.126:54754#true connect
+
+2024-05-06 13:42:36,596 INFO Client connection 192.168.2.126:65234#true connect
+
+2024-05-06 13:42:36,654 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 192.168.60.1:8101#true
+
+2024-05-06 13:42:38,830 INFO Client connection 192.168.2.126:50061#true connect
+
+2024-05-06 13:42:38,880 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, 192.168.60.1:8202#true
+
+2024-05-06 13:42:40,779 INFO Client connection 192.168.2.126:62302#true connect
+
+2024-05-06 13:42:40,834 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}, 192.168.60.1:8201#true
+
+2024-05-06 13:42:42,351 INFO Client connection 192.168.2.126:55287#true connect
+
+2024-05-06 13:42:42,395 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 192.168.60.1:8102#true
+
+2024-05-06 13:42:51,225 INFO Client connection 192.168.2.126:60544#true disconnect, remove instances and subscribers
+
+2024-05-06 13:42:56,225 INFO Client connection 192.168.2.126:57073#true disconnect, remove instances and subscribers
+
+2024-05-06 13:42:56,225 INFO Client connection 192.168.2.126:61143#true disconnect, remove instances and subscribers
+
+2024-05-06 13:42:56,225 INFO Client connection 192.168.2.126:51600#true disconnect, remove instances and subscribers
+
+2024-05-06 13:43:06,227 INFO Client connection 192.168.2.126:54754#true disconnect, remove instances and subscribers
+
+2024-05-06 13:43:59,145 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+
+2024-05-06 13:53:20,204 INFO Client connection 192.168.2.126:50297#true connect
+
+2024-05-06 13:53:51,504 INFO Client connection 192.168.2.126:50297#true disconnect, remove instances and subscribers
+
+2024-05-06 13:54:22,500 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=6}, 192.168.60.1:8202#true
+
+2024-05-06 13:54:22,524 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=7}, 192.168.60.1:8201#true
+
+2024-05-06 13:54:22,552 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=6}, 192.168.60.1:8102#true
+
+2024-05-06 13:54:22,568 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=7}, 192.168.60.1:8101#true
+
+2024-05-06 13:54:35,833 INFO Client connection 192.168.2.126:56461#true connect
+
+2024-05-06 13:54:35,904 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=8}, 192.168.60.1:8202#true
+
+2024-05-06 13:54:37,756 INFO Client connection 192.168.2.126:59587#true connect
+
+2024-05-06 13:54:37,816 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=9}, 192.168.60.1:8201#true
+
+2024-05-06 13:54:39,381 INFO Client connection 192.168.2.126:60687#true connect
+
+2024-05-06 13:54:39,425 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=8}, 192.168.60.1:8101#true
+
+2024-05-06 13:54:40,815 INFO Client connection 192.168.2.126:57836#true connect
+
+2024-05-06 13:54:42,304 INFO Client connection 192.168.2.126:62443#true connect
+
+2024-05-06 13:54:42,358 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=9}, 192.168.60.1:8102#true
+
+2024-05-06 13:54:51,511 INFO Client connection 192.168.2.126:65234#true disconnect, remove instances and subscribers
+
+2024-05-06 13:54:51,511 INFO Client connection 192.168.2.126:50061#true disconnect, remove instances and subscribers
+
+2024-05-06 13:54:56,512 INFO Client connection 192.168.2.126:55287#true disconnect, remove instances and subscribers
+
+2024-05-06 13:54:56,512 INFO Client connection 192.168.2.126:62302#true disconnect, remove instances and subscribers
+
+2024-05-06 13:54:59,171 WARN namespace : public, [DEFAULT_GROUP@@borrow-service] services are automatically cleaned
+
+2024-05-06 13:55:16,514 INFO Client connection 192.168.2.126:57836#true disconnect, remove instances and subscribers
+
+2024-05-06 13:55:32,606 INFO Client connection 192.168.2.126:56240#true connect
+
+2024-05-06 13:55:50,552 WARN [NamingServerHttpClientManager] Start destroying HTTP-Client
+
+2024-05-06 13:55:50,553 WARN [NamingServerHttpClientManager] Destruction of the end
+
+2024-05-06 13:57:40,841 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-05-06 13:57:40,841 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-05-06 13:57:40,842 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-05-06 13:57:40,842 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-05-06 13:57:41,491 INFO Load instance extension handler []
+
+2024-05-06 13:57:56,316 INFO Client connection 192.168.2.126:50622#true connect
+
+2024-05-06 13:57:56,444 INFO Client connection 192.168.60.1:8301#false connect
+
+2024-05-06 13:57:56,479 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=0}, 192.168.60.1:8301#false
+
+2024-05-06 13:57:57,663 INFO Client connection 192.168.2.126:59552#true connect
+
+2024-05-06 13:57:57,712 INFO Client connection 192.168.60.1:8202#true connect
+
+2024-05-06 13:57:57,712 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=0}, 192.168.60.1:8202#true
+
+2024-05-06 13:57:59,022 INFO Client connection 192.168.2.126:50061#true connect
+
+2024-05-06 13:57:59,089 INFO Client connection 192.168.60.1:8201#true connect
+
+2024-05-06 13:57:59,090 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=1}, 192.168.60.1:8201#true
+
+2024-05-06 13:58:00,638 INFO Client connection 192.168.2.126:56647#true connect
+
+2024-05-06 13:58:00,684 INFO Client connection 192.168.60.1:8102#true connect
+
+2024-05-06 13:58:00,684 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=0}, 192.168.60.1:8102#true
+
+2024-05-06 13:58:02,253 INFO Client connection 192.168.2.126:61350#true connect
+
+2024-05-06 13:58:02,310 INFO Client connection 192.168.60.1:8101#true connect
+
+2024-05-06 13:58:02,310 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=1}, 192.168.60.1:8101#true
+
+2024-05-06 13:59:08,809 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=2}, 192.168.60.1:8202#true
+
+2024-05-06 13:59:08,843 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=3}, 192.168.60.1:8201#true
+
+2024-05-06 13:59:08,886 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=2}, 192.168.60.1:8102#true
+
+2024-05-06 13:59:08,918 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=3}, 192.168.60.1:8101#true
+
+2024-05-06 13:59:08,926 WARN remove instance from non-exist client: 192.168.60.1:8301#true
+
+2024-05-06 13:59:12,101 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=1}, 192.168.60.1:8301#false
+
+2024-05-06 13:59:21,529 INFO Client connection 192.168.2.126:51980#true connect
+
+2024-05-06 13:59:21,584 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=4}, 192.168.60.1:8201#true
+
+2024-05-06 13:59:23,116 INFO Client connection 192.168.2.126:61345#true connect
+
+2024-05-06 13:59:23,165 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=4}, 192.168.60.1:8102#true
+
+2024-05-06 13:59:25,076 INFO Client connection 192.168.2.126:54939#true connect
+
+2024-05-06 13:59:25,138 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='borrow-service', ephemeral=false, revision=2}, 192.168.60.1:8301#false
+
+2024-05-06 13:59:26,093 INFO Client connection 192.168.2.126:53311#true connect
+
+2024-05-06 13:59:26,135 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-service', ephemeral=true, revision=5}, 192.168.60.1:8101#true
+
+2024-05-06 13:59:27,731 INFO Client connection 192.168.2.126:65408#true connect
+
+2024-05-06 13:59:27,777 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='book-service', ephemeral=true, revision=5}, 192.168.60.1:8202#true
+
+2024-05-06 13:59:39,081 INFO Client connection 192.168.2.126:50622#true disconnect, remove instances and subscribers
+
+2024-05-06 13:59:39,081 INFO Client connection 192.168.2.126:59552#true disconnect, remove instances and subscribers
+
+2024-05-06 13:59:44,086 INFO Client connection 192.168.2.126:56647#true disconnect, remove instances and subscribers
+
+2024-05-06 13:59:44,086 INFO Client connection 192.168.2.126:61350#true disconnect, remove instances and subscribers
+
+2024-05-06 13:59:44,086 INFO Client connection 192.168.2.126:50061#true disconnect, remove instances and subscribers
+

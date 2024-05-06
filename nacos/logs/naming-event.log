@@ -1,0 +1,6 @@
+2024-05-06 13:59:09,832 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@DEFAULT in 1, msg: tcp:timeout
+
+2024-05-06 13:59:10,834 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@DEFAULT in 2, msg: tcp:timeout
+
+2024-05-06 13:59:12,101 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@DEFAULT, region: unknown, msg: tcp:timeout
+

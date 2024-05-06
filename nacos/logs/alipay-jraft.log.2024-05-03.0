@@ -1,0 +1,170 @@
+2024-05-03 15:17:24,619 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-05-03 15:17:24,677 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-05-03 15:17:24,784 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-05-03 15:17:24,789 INFO The number of active nodes increment to 1.
+
+2024-05-03 15:17:24,965 INFO Starts FSMCaller successfully.
+
+2024-05-03 15:17:24,969 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-05-03 15:17:24,974 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:24,975 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> start vote and grant vote self, term=0.
+
+2024-05-03 15:17:24,988 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-05-03 15:17:24,991 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.10.103:7848, cost time=12 ms
+
+2024-05-03 15:17:24,992 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> become leader of group, term=1, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:24,994 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-05-03 15:17:24,996 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 15:17:24,996 INFO Start the RaftGroupService successfully.
+
+2024-05-03 15:17:25,003 INFO onLeaderStart: term=1.
+
+2024-05-03 15:17:25,005 INFO The number of active nodes increment to 2.
+
+2024-05-03 15:17:25,049 INFO Starts FSMCaller successfully.
+
+2024-05-03 15:17:25,049 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-05-03 15:17:25,050 INFO Node <naming_instance_metadata/192.168.10.103:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:25,050 INFO Node <naming_instance_metadata/192.168.10.103:7848> start vote and grant vote self, term=0.
+
+2024-05-03 15:17:25,051 INFO Creating new channel to: 192.168.10.103:7848.
+
+2024-05-03 15:17:25,053 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-05-03 15:17:25,053 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.10.103:7848, cost time=3 ms
+
+2024-05-03 15:17:25,053 INFO Node <naming_instance_metadata/192.168.10.103:7848> become leader of group, term=1, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:25,054 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 15:17:25,054 INFO Start the RaftGroupService successfully.
+
+2024-05-03 15:17:25,054 INFO onLeaderStart: term=1.
+
+2024-05-03 15:17:25,056 INFO The number of active nodes increment to 3.
+
+2024-05-03 15:17:25,080 INFO The channel 192.168.10.103:7848 is in state: CONNECTING.
+
+2024-05-03 15:17:25,098 INFO Starts FSMCaller successfully.
+
+2024-05-03 15:17:25,098 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-05-03 15:17:25,098 INFO Node <naming_service_metadata/192.168.10.103:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:25,098 INFO Node <naming_service_metadata/192.168.10.103:7848> start vote and grant vote self, term=0.
+
+2024-05-03 15:17:25,101 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-05-03 15:17:25,103 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.10.103:7848, cost time=3 ms
+
+2024-05-03 15:17:25,103 INFO Node <naming_service_metadata/192.168.10.103:7848> become leader of group, term=1, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 15:17:25,103 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 15:17:25,103 INFO Start the RaftGroupService successfully.
+
+2024-05-03 15:17:25,104 INFO onLeaderStart: term=1.
+
+2024-05-03 15:17:25,195 INFO The channel 192.168.10.103:7848 is in state: READY.
+
+2024-05-03 15:17:25,195 INFO The channel 192.168.10.103:7848 has successfully established.
+
+2024-05-03 18:11:04,526 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-05-03 18:11:04,583 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-05-03 18:11:04,684 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-05-03 18:11:04,688 INFO The number of active nodes increment to 1.
+
+2024-05-03 18:11:04,880 INFO Starts FSMCaller successfully.
+
+2024-05-03 18:11:04,884 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-05-03 18:11:04,884 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-03 18:11:04,890 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:04,891 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> start vote and grant vote self, term=1.
+
+2024-05-03 18:11:04,905 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-05-03 18:11:04,908 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=192.168.10.103:7848, cost time=12 ms
+
+2024-05-03 18:11:04,909 INFO Node <naming_persistent_service_v2/192.168.10.103:7848> become leader of group, term=2, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:04,910 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-05-03 18:11:04,911 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 18:11:04,911 INFO Start the RaftGroupService successfully.
+
+2024-05-03 18:11:04,919 INFO onLeaderStart: term=2.
+
+2024-05-03 18:11:04,919 INFO The number of active nodes increment to 2.
+
+2024-05-03 18:11:04,969 INFO Creating new channel to: 192.168.10.103:7848.
+
+2024-05-03 18:11:04,970 INFO Starts FSMCaller successfully.
+
+2024-05-03 18:11:04,970 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-05-03 18:11:04,970 INFO Node <naming_instance_metadata/192.168.10.103:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-03 18:11:04,971 INFO Node <naming_instance_metadata/192.168.10.103:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:04,971 INFO Node <naming_instance_metadata/192.168.10.103:7848> start vote and grant vote self, term=1.
+
+2024-05-03 18:11:04,974 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-05-03 18:11:04,974 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=192.168.10.103:7848, cost time=3 ms
+
+2024-05-03 18:11:04,974 INFO Node <naming_instance_metadata/192.168.10.103:7848> become leader of group, term=2, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:04,975 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 18:11:04,975 INFO Start the RaftGroupService successfully.
+
+2024-05-03 18:11:04,976 INFO onLeaderStart: term=2.
+
+2024-05-03 18:11:04,977 INFO The number of active nodes increment to 3.
+
+2024-05-03 18:11:04,999 INFO The channel 192.168.10.103:7848 is in state: CONNECTING.
+
+2024-05-03 18:11:05,025 INFO Starts FSMCaller successfully.
+
+2024-05-03 18:11:05,026 WARN No data for snapshot reader D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-05-03 18:11:05,026 INFO Node <naming_service_metadata/192.168.10.103:7848> target priority value has changed from: 0, to: -1.
+
+2024-05-03 18:11:05,026 INFO Node <naming_service_metadata/192.168.10.103:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:05,026 INFO Node <naming_service_metadata/192.168.10.103:7848> start vote and grant vote self, term=1.
+
+2024-05-03 18:11:05,029 WARN Unable to fsync directory D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-05-03 18:11:05,029 INFO Save raft meta, path=D:\Works\SpringCloudStudy\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=192.168.10.103:7848, cost time=2 ms
+
+2024-05-03 18:11:05,029 INFO Node <naming_service_metadata/192.168.10.103:7848> become leader of group, term=2, conf=192.168.10.103:7848, oldConf=.
+
+2024-05-03 18:11:05,029 WARN RPC server is not started in RaftGroupService.
+
+2024-05-03 18:11:05,029 INFO Start the RaftGroupService successfully.
+
+2024-05-03 18:11:05,031 INFO onLeaderStart: term=2.
+
+2024-05-03 18:11:05,114 INFO The channel 192.168.10.103:7848 is in state: READY.
+
+2024-05-03 18:11:05,114 INFO The channel 192.168.10.103:7848 has successfully established.
+
