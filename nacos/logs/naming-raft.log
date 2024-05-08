@@ -60,3 +60,7 @@
 
 2024-05-08 11:19:15,916 INFO add listener: com.alibaba.nacos.naming.iplist.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@borrow-service
 
+2024-05-08 16:04:12,687 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@book-service
+
+2024-05-08 16:04:12,690 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@user-service
+
