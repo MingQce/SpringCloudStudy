@@ -1,0 +1,224 @@
+2024-05-07 22:59:12,232 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 22:59:12,235 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,
+
+2024-05-07 22:59:14,205 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 22:59:14,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,192.168.60.1:8201_true,
+
+2024-05-07 22:59:18,504 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 22:59:18,504 INFO [IP-UPDATED] namespace: 35dab273-9839-482a-b612-4db725b5c8e4, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 22:59:20,631 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 22:59:20,631 INFO [IP-UPDATED] namespace: 35dab273-9839-482a-b612-4db725b5c8e4, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 22:59:21,939 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8301:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 22:59:21,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 22:59:21,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 22:59:25,592 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:ok+
+
+2024-05-07 22:59:29,237 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:ok+
+
+2024-05-07 22:59:31,973 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:ok+
+
+2024-05-07 23:03:37,857 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:03:37,857 INFO [IP-UPDATED] namespace: 35dab273-9839-482a-b612-4db725b5c8e4, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:03:37,883 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:03:37,883 INFO [IP-UPDATED] namespace: 35dab273-9839-482a-b612-4db725b5c8e4, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:18:45,755 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:18:45,755 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 23:18:47,550 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:18:47,551 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 23:19:30,023 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:19:30,023 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8201_true,
+
+2024-05-07 23:19:30,048 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:19:30,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:19:30,059 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:19:30,059 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2024-05-07 23:19:30,072 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:19:30,072 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:19:30,109 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:19:31,120 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:timeout
+
+2024-05-07 23:19:32,120 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:timeout
+
+2024-05-07 23:19:33,371 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:timeout
+
+2024-05-07 23:25:16,192 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8301:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:25:16,198 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:25:16,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:25:16,491 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:25:19,487 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:timeout
+
+2024-05-07 23:25:22,263 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:timeout
+
+2024-05-07 23:25:25,745 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:timeout
+
+2024-05-07 23:25:45,019 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:25:45,020 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,
+
+2024-05-07 23:25:47,193 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:25:47,193 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,192.168.60.1:8201_true,
+
+2024-05-07 23:25:51,832 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:25:51,832 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 23:25:54,046 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:25:54,046 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 23:25:54,745 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_false,
+
+2024-05-07 23:25:59,599 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:ok+
+
+2024-05-07 23:26:04,599 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:ok+
+
+2024-05-07 23:26:08,351 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:ok+
+
+2024-05-07 23:30:10,676 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:30:10,676 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:30:10,700 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:30:10,700 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:30:26,161 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:30:26,161 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 23:30:28,226 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:30:28,226 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 23:31:04,454 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:31:04,454 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 23:31:16,771 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:31:16,771 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8201_true,
+
+2024-05-07 23:31:26,438 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:31:26,438 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2024-05-07 23:31:31,986 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:31:31,986 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:31:40,876 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:31:41,790 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:timeout
+
+2024-05-07 23:31:42,791 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:timeout
+
+2024-05-07 23:31:44,042 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:timeout
+
+2024-05-07 23:37:29,677 INFO DEFAULT_GROUP@@borrow-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8301:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:37:29,680 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:37:29,818 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:37:29,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:37:35,072 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:timeout
+
+2024-05-07 23:37:39,968 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:timeout
+
+2024-05-07 23:37:44,969 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:timeout
+
+2024-05-07 23:38:41,136 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:38:41,137 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,
+
+2024-05-07 23:38:43,286 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:38:43,287 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8202_true,192.168.60.1:8201_true,
+
+2024-05-07 23:38:47,608 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:38:47,608 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,
+
+2024-05-07 23:38:49,757 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:38:49,757 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 23:38:50,435 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_false,
+
+2024-05-07 23:38:54,481 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:ok+
+
+2024-05-07 23:38:59,481 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-ENABLED} pre-valid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:ok+
+
+2024-05-07 23:39:03,233 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-ENABLED} valid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:ok+
+
+2024-05-07 23:40:48,548 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:40:48,548 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:40:48,582 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:40:48,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:41:08,114 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chongqing, new ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:41:08,114 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:41:10,208 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-NEW} cluster: Chengdu, new ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:41:10,208 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8102_true,192.168.60.1:8101_true,
+
+2024-05-07 23:41:50,562 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8202:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:41:50,562 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 192.168.60.1:8201_true,
+
+2024-05-07 23:41:55,856 INFO DEFAULT_GROUP@@book-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8201:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:41:55,856 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@book-service, ips: 
+
+2024-05-07 23:42:05,214 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chengdu, dead ips size: 1, content: [192.168.60.1:8102:unknown:Chengdu_1.0_true_false_Chengdu]
+
+2024-05-07 23:42:05,214 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 192.168.60.1:8101_true,
+
+2024-05-07 23:42:11,972 INFO DEFAULT_GROUP@@user-service {SYNC} {IP-DEAD} cluster: Chongqing, dead ips size: 1, content: [192.168.60.1:8101:unknown:Chongqing_1.0_true_false_Chongqing]
+
+2024-05-07 23:42:11,973 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user-service, ips: 
+
+2024-05-07 23:42:20,179 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@borrow-service, ips: 192.168.60.1:8301_true,
+
+2024-05-07 23:42:21,571 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 1, msg: tcp:timeout
+
+2024-05-07 23:42:22,572 INFO serviceName: DEFAULT_GROUP@@borrow-service {OTHER} {IP-DISABLED} pre-invalid: 192.168.60.1:8301@Chengdu in 2, msg: tcp:timeout
+
+2024-05-07 23:42:23,823 INFO serviceName: DEFAULT_GROUP@@borrow-service {POS} {IP-DISABLED} invalid: 192.168.60.1:8301@Chengdu, region: unknown, msg: tcp:timeout
+

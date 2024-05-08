@@ -1,0 +1,20 @@
+2024-05-07 23:01:42,967 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:03:11,086 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:05:16,263 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:05:16,351 WARN [dump-ignore] ignore to save cache file. groupKey=userservice-dev.yml+DEFAULT_GROUP, md5=20ccf27c1721fbbde688586422ccd297, lastModifiedOld=1715094191056, lastModifiedNew=1715094316257
+
+2024-05-07 23:25:16,414 INFO [dump-all-ok] userservice-dev.yml+DEFAULT_GROUP, 1715094316257, length=178, md5=20ccf27c1721fbbde688586422ccd297
+
+2024-05-07 23:30:05,328 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:37:29,913 INFO [dump-all-ok] userservice-dev.yml+DEFAULT_GROUP, 1715095805214, length=175, md5=b6a63a8f0ee808b39fc6469028be346b
+
+2024-05-07 23:37:59,621 INFO [dump-task] add task. groupKey=userservice-dev.yml+DEFAULT_GROUP, taskKey=userservice-dev.yml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:38:17,258 INFO [dump-task] add task. groupKey=user-service-dev.yaml+DEFAULT_GROUP, taskKey=user-service-dev.yaml+DEFAULT_GROUP++false+null
+
+2024-05-07 23:40:02,115 INFO [dump-task] add task. groupKey=user-service-dev.yaml+DEFAULT_GROUP, taskKey=user-service-dev.yaml+DEFAULT_GROUP++false+null
+

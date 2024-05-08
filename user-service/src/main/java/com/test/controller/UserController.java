@@ -2,6 +2,7 @@ package com.test.controller;
 
 import com.test.entity.User;
 import com.test.service.UserService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,9 +15,12 @@ public class UserController {
     @Resource
     UserService service;
 
+    @Value("${test.ll}")
+    String test;
+
     @RequestMapping("/user/{uid}")
-    public User findUserById(@PathVariable("uid") int uid){
-        System.out.println("user-service");
+    public User findUserById(@PathVariable("uid") int uid) {
+        System.out.println(test);
         return service.getUserById(uid);
     }
 }

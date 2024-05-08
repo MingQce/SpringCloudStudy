@@ -15,3 +15,8 @@ spring:
         server-addr: localhost:8848
         # 将ephemeral修改为false，表示非临时实例
         ephemeral: false
+        cluster-name: Chengdu
+        namespace: 7bae848b-6745-4d48-be55-3e868569394e
+    loadbalancer:
+      nacos:
+        enabled: true
