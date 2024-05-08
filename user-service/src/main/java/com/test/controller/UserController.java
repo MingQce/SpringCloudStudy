@@ -15,12 +15,8 @@ public class UserController {
     @Resource
     UserService service;
 
-    @Value("${test.ll}")
-    String test;
-
     @RequestMapping("/user/{uid}")
     public User findUserById(@PathVariable("uid") int uid) {
-        System.out.println(test);
         return service.getUserById(uid);
     }
 }
