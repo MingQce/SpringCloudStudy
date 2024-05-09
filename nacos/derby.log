@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Wed May 08 11:13:20 HKT 2024:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018f-5630-f5da-000019075a00 
+Thu May 09 11:44:05 HKT 2024:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018f-5b73-79e1-000019535748 
 on database directory D:\Works\SpringCloudStudy\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@694f9431 
 Loaded from jar:file:/D:/Works/SpringCloudStudy/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.14.2.0.jar!/
 java.vendor=Amazon.com Inc.

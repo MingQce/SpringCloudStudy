@@ -1,0 +1,104 @@
+2024-05-08 11:13:22,020 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2024-05-08 11:13:22,676 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2024-05-08 11:13:22,677 INFO listen for service meta change
+
+2024-05-08 11:13:22,678 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715096330422,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:13:22,699 WARN cluster: Chengdu not found, ip: {"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715096330422,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:13:22,775 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@borrow-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1715138002758,"checksum":"827db944ead71a4ff0b395e21b7353f2","clusterMap":{"Chengdu":{"serviceName":"DEFAULT_GROUP@@borrow-service","name":"Chengdu","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":false,"defIPPort":80}},"empty":false}
+
+2024-05-08 11:13:23,038 INFO [CLUSTER-UPDATE] DEFAULT_GROUP@@borrow-service:Chengdu, defIPPort: -1 -> 80
+
+2024-05-08 11:13:23,038 INFO cluster size, new: 1, old: 1
+
+2024-05-08 11:13:23,038 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715096330422,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:13:23,039 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715096330422,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:13:27,000 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.60.1:8848], new: [192.168.60.1:8848]
+
+2024-05-08 11:15:06,185 INFO creating empty service 7bae848b-6745-4d48-be55-3e868569394e:DEFAULT_GROUP@@book-service
+
+2024-05-08 11:15:06,185 INFO creating empty service 7bae848b-6745-4d48-be55-3e868569394e:DEFAULT_GROUP@@book-service
+
+2024-05-08 11:15:06,264 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@book-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715138106185,"checksum":"f03a1b2b162d456b2c2c90663552a092","clusterMap":{},"empty":true}
+
+2024-05-08 11:15:06,264 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@book-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715138106185,"checksum":"f03a1b2b162d456b2c2c90663552a092","clusterMap":{},"empty":true}
+
+2024-05-08 11:15:06,265 WARN cluster: Chengdu not found, ip: {"instanceId":"192.168.60.1#8202#Chengdu#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138106183,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:15:06,268 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@book-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8202#Chengdu#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138106183,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:15:06,269 WARN cluster: Chongqing not found, ip: {"instanceId":"192.168.60.1#8201#Chongqing#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8201,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138106183,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:15:06,269 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@book-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8202#Chengdu#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8202,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138106183,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.60.1#8201#Chongqing#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8201,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138106183,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:15:08,222 INFO creating empty service 7bae848b-6745-4d48-be55-3e868569394e:DEFAULT_GROUP@@user-service
+
+2024-05-08 11:15:08,224 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@user-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715138108222,"checksum":"09c170b3683511203520dbf5dfc1a330","clusterMap":{},"empty":true}
+
+2024-05-08 11:15:08,224 WARN cluster: Chengdu not found, ip: {"instanceId":"192.168.60.1#8102#Chengdu#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138108222,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:15:08,224 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8102#Chengdu#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138108222,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:15:10,102 WARN cluster: Chongqing not found, ip: {"instanceId":"192.168.60.1#8101#Chongqing#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8101,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138110102,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:15:10,102 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8102#Chengdu#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8102,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138108222,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000},{"instanceId":"192.168.60.1#8101#Chongqing#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8101,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138110102,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:15:11,491 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:15:11,569 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138111561,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:15:12,544 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:15:12,574 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:15:22,548 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:19:01,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[]}
+
+2024-05-08 11:19:05,159 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:19:15,914 INFO creating empty service 7bae848b-6745-4d48-be55-3e868569394e:DEFAULT_GROUP@@borrow-service
+
+2024-05-08 11:19:15,915 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@borrow-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715138355914,"checksum":"cb61b5ffaf9675b5ebd89b5e07ff4b01","clusterMap":{},"empty":true}
+
+2024-05-08 11:19:15,916 INFO cluster size, new: 0, old: 0
+
+2024-05-08 11:19:15,916 WARN cluster: Chengdu not found, ip: {"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138355914,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:19:15,917 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138355914,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 11:19:15,917 WARN cluster: Chengdu not found, ip: {"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138355914,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}, will create new cluster with default configuration.
+
+2024-05-08 11:19:15,917 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8301#Chengdu#DEFAULT_GROUP@@borrow-service","ip":"192.168.60.1","port":8301,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":false,"clusterName":"Chengdu","serviceName":"DEFAULT_GROUP@@borrow-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715138355914,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 16:01:51,251 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@book-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8201#Chongqing#DEFAULT_GROUP@@book-service","ip":"192.168.60.1","port":8201,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@book-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715155308206,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 16:01:51,300 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@user-service, value: {"instanceList":[{"instanceId":"192.168.60.1#8101#Chongqing#DEFAULT_GROUP@@user-service","ip":"192.168.60.1","port":8101,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"Chongqing","serviceName":"DEFAULT_GROUP@@user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1715155306903,"marked":false,"app":"unknown","ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]}
+
+2024-05-08 16:01:51,313 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@book-service, value: {"instanceList":[]}
+
+2024-05-08 16:01:51,368 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@borrow-service, value: {"instanceList":[]}
+
+2024-05-08 16:01:51,368 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.7bae848b-6745-4d48-be55-3e868569394e##DEFAULT_GROUP@@user-service, value: {"instanceList":[]}
+
+2024-05-08 16:01:52,158 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@borrow-service:Chengdu:192.168.60.1:8301
+
+2024-05-08 16:01:54,911 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@borrow-service
+
+2024-05-08 16:04:12,678 WARN namespace : 7bae848b-6745-4d48-be55-3e868569394e, [DEFAULT_GROUP@@book-service] services are automatically cleaned
+
+2024-05-08 16:04:12,687 WARN namespace : 7bae848b-6745-4d48-be55-3e868569394e, [DEFAULT_GROUP@@user-service] services are automatically cleaned
+
+2024-05-08 16:04:12,690 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@book-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715155311315,"checksum":"c1fbc2bf1ba5ff47e89cdc552a56c57c","clusterMap":{"Chengdu":{"serviceName":"DEFAULT_GROUP@@book-service","name":"Chengdu","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80},"Chongqing":{"serviceName":"DEFAULT_GROUP@@book-service","name":"Chongqing","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2024-05-08 16:04:12,690 INFO [DEAD-SERVICE] {"name":"DEFAULT_GROUP@@user-service","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":5,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"7bae848b-6745-4d48-be55-3e868569394e","ipDeleteTimeout":30000,"lastModifiedMillis":1715155311368,"checksum":"29a8ef6a701a93e7a9aff2a1eeb79c9c","clusterMap":{"Chengdu":{"serviceName":"DEFAULT_GROUP@@user-service","name":"Chengdu","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80},"Chongqing":{"serviceName":"DEFAULT_GROUP@@user-service","name":"Chongqing","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2024-05-08 16:21:40,417 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@borrow-service:Chengdu:192.168.60.1:8301
+
+2024-05-08 16:25:42,873 WARN tcp check started before last one finished, service: DEFAULT_GROUP@@borrow-service:Chengdu:192.168.60.1:8301
+
