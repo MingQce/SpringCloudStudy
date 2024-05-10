@@ -1,7 +1,6 @@
 package com.test.controller;
 
-import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.csp.sentinel.slots.block.BlockException;
+
 import com.alibaba.fastjson.JSONObject;
 import com.test.entity.User;
 import com.test.entity.UserBorrowDetail;
@@ -21,35 +20,20 @@ public class BorrowController {
     @Resource
     BorrowService service;
 
-    @RequestMapping("/borrow1/{uid}")
+    @RequestMapping("/borrow/{uid}")
     UserBorrowDetail findUserBorrows(@PathVariable("uid") int uid){
         return service.getUserBorrowDetailByUid(uid);
     }
 
-    @RequestMapping("/borrow2/{uid}")
-    @SentinelResource(value = "findUserBorrows2", blockHandler = "test")
-    UserBorrowDetail findUserBorrows2(@PathVariable("uid") int uid) {
-        throw new RuntimeException();
-    }
+    @RequestMapping("/borrow/take/{uid}/{bid}")
+    JSONObject borrow(@PathVariable("uid") int uid,
+                      @PathVariable("bid") int bid){
+        service.doBorrow(uid, bid);
 
-    UserBorrowDetail test(int uid, BlockException e){
-        return new UserBorrowDetail(new User(), Collections.emptyList());
-    }
-
-    @RequestMapping("/blocked")
-    JSONObject blocked(){
         JSONObject object = new JSONObject();
-        object.put("code", 403);
+        object.put("code", "200");
         object.put("success", false);
-        object.put("massage", "您的请求频率过快，请稍后再试！");
+        object.put("message", "借阅成功！");
         return object;
-    }
-
-    @RequestMapping("/test")
-    @SentinelResource("test")   //注意这里需要添加@SentinelResource才可以，用户资源名称就使用这里定义的资源名称
-    String findUserBorrows2(@RequestParam(value = "a", required = false) String a,
-                            @RequestParam(value = "b", required = false) String b,
-                            @RequestParam(value = "c",required = false) String c) {
-        return "请求成功！a = "+a+", b = "+b+", c = "+c;
     }
 }

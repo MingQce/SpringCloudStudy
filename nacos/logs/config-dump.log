@@ -1,2 +1,4 @@
-2024-05-09 11:44:07,588 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1715096402088, length=178, md5=20ccf27c1721fbbde688586422ccd297
+2024-05-10 13:39:51,130 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1715247492349, length=15, md5=e195fec3e771d197ba25c7d9d8c27fe5
+
+2024-05-10 13:55:51,260 INFO [dump-task] add task. groupKey=user-service-dev.yaml+DEFAULT_GROUP, taskKey=user-service-dev.yaml+DEFAULT_GROUP++false+null
 
