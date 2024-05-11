@@ -2,6 +2,7 @@ package com.test.controller;
 
 import com.test.entity.Book;
 import com.test.service.BookService;
+import io.seata.core.context.RootContext;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,7 @@ public class BookController {
 
     @RequestMapping("/book/remain/{bid}")
     public int bookRemain(@PathVariable("bid") int uid){
+        System.out.println(RootContext.getXID());
         return service.getRemain(uid);
     }
 
