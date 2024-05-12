@@ -18,10 +18,19 @@ spring:
       nacos:
         enabled: true
 seata:
-  service:
-    vgroup-mapping:
-      # 这里需要对事务组做映射，默认的分组名为 应用名称-seata-service-group，将其映射到default集群
-      # 这个很关键，一定要配置对，不然会找不到服务
-      borrow-service-seata-service-group: default
-    grouplist:
-      default: localhost:8868
+  # 注册
+  registry:
+    # 使用Nacos
+    type: nacos
+    nacos:
+      # 使用Seata的命名空间，这样才能正确找到Seata服务，由于组使用的是SEATA_GROUP，配置默认值就是，就不用配了
+      namespace: 4dc1823b-5f47-4ac5-af66-4f18a2edb1c2
+      username: nacos
+      password: nacos
+  # 配置
+  config:
+    type: nacos
+    nacos:
+      namespace: 4dc1823b-5f47-4ac5-af66-4f18a2edb1c2
+      username: nacos
+      password: nacos

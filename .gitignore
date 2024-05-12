@@ -38,3 +38,4 @@ build/
 /nacos/data/protocol/raft/naming_service_metadata/log/LOCK
 /nacos/logs/
 /seata/seata-server-1.4.2/logs/
+/logs/

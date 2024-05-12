@@ -1,4 +1,230 @@
-2024-05-10 13:39:51,130 INFO [dump-all-ok] user-service-dev.yaml+DEFAULT_GROUP, 1715247492349, length=15, md5=e195fec3e771d197ba25c7d9d8c27fe5
+2024-05-12 21:21:35,497 INFO [dump-task] add task. groupKey=transport.threadFactory.clientWorkerThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.clientWorkerThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
 
-2024-05-10 13:55:51,260 INFO [dump-task] add task. groupKey=user-service-dev.yaml+DEFAULT_GROUP, taskKey=user-service-dev.yaml+DEFAULT_GROUP++false+null
+2024-05-12 21:21:35,497 INFO [dump-task] add task. groupKey=transport.enableRmClientBatchSendRequest+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.enableRmClientBatchSendRequest+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,562 INFO [dump-task] add task. groupKey=transport.rpcTmRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.rpcTmRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,562 INFO [dump-task] add task. groupKey=transport.server+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.server+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,567 INFO [dump-task] add task. groupKey=transport.rpcRmRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.rpcRmRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,567 INFO [dump-task] add task. groupKey=transport.threadFactory.bossThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.bossThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,571 INFO [dump-task] add task. groupKey=transport.threadFactory.clientSelectorThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.clientSelectorThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,571 INFO [dump-task] add task. groupKey=transport.enableTmClientBatchSendRequest+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.enableTmClientBatchSendRequest+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,575 INFO [dump-task] add task. groupKey=transport.threadFactory.clientSelectorThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.clientSelectorThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,575 INFO [dump-task] add task. groupKey=transport.rpcTcRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.rpcTcRequestTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,579 INFO [dump-task] add task. groupKey=transport.threadFactory.bossThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.bossThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,580 INFO [dump-task] add task. groupKey=transport.heartbeat+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.heartbeat+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,585 INFO [dump-task] add task. groupKey=transport.threadFactory.serverExecutorThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.serverExecutorThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,585 INFO [dump-task] add task. groupKey=transport.enableTcServerBatchSendResponse+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.enableTcServerBatchSendResponse+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,589 INFO [dump-task] add task. groupKey=transport.type+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.type+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,590 INFO [dump-task] add task. groupKey=transport.threadFactory.workerThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.workerThreadPrefix+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,593 INFO [dump-task] add task. groupKey=transport.threadFactory.shareBossWorker+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.shareBossWorker+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,593 INFO [dump-task] add task. groupKey=transport.threadFactory.workerThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.threadFactory.workerThreadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,597 INFO [dump-task] add task. groupKey=transport.serialization+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.serialization+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,597 INFO [dump-task] add task. groupKey=transport.shutdown.wait+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.shutdown.wait+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,602 INFO [dump-task] add task. groupKey=service.vgroupMapping.default_tx_group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.vgroupMapping.default_tx_group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,602 INFO [dump-task] add task. groupKey=transport.compressor+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=transport.compressor+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,605 INFO [dump-task] add task. groupKey=service.default.grouplist+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.default.grouplist+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,605 INFO [dump-task] add task. groupKey=service.enableDegrade+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.enableDegrade+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,609 INFO [dump-task] add task. groupKey=service.disableGlobalTransaction+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.disableGlobalTransaction+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,609 INFO [dump-task] add task. groupKey=client.rm.asyncCommitBufferLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.asyncCommitBufferLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,612 INFO [dump-task] add task. groupKey=client.rm.lock.retryTimes+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.lock.retryTimes+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,612 INFO [dump-task] add task. groupKey=client.rm.lock.retryInterval+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.lock.retryInterval+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,617 INFO [dump-task] add task. groupKey=client.rm.reportRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.reportRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,617 INFO [dump-task] add task. groupKey=client.rm.lock.retryPolicyBranchRollbackOnConflict+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.lock.retryPolicyBranchRollbackOnConflict+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,620 INFO [dump-task] add task. groupKey=client.rm.tableMetaCheckerInterval+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.tableMetaCheckerInterval+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,620 INFO [dump-task] add task. groupKey=client.rm.tableMetaCheckEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.tableMetaCheckEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,625 INFO [dump-task] add task. groupKey=client.rm.reportSuccessEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.reportSuccessEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,625 INFO [dump-task] add task. groupKey=client.rm.sqlParserType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.sqlParserType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,628 INFO [dump-task] add task. groupKey=client.rm.sagaJsonParser+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.sagaJsonParser+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,628 INFO [dump-task] add task. groupKey=client.rm.sagaBranchRegisterEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.sagaBranchRegisterEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,632 INFO [dump-task] add task. groupKey=client.tm.commitRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.commitRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,632 INFO [dump-task] add task. groupKey=client.rm.tccActionInterceptorOrder+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.rm.tccActionInterceptorOrder+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,636 INFO [dump-task] add task. groupKey=client.tm.rollbackRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.rollbackRetryCount+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,636 INFO [dump-task] add task. groupKey=client.tm.defaultGlobalTransactionTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.defaultGlobalTransactionTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,642 INFO [dump-task] add task. groupKey=client.tm.degradeCheck+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.degradeCheck+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,650 INFO [dump-task] add task. groupKey=client.tm.degradeCheckAllowTimes+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.degradeCheckAllowTimes+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,657 INFO [dump-task] add task. groupKey=client.tm.degradeCheckPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.degradeCheckPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,663 INFO [dump-task] add task. groupKey=client.tm.interceptorOrder+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.tm.interceptorOrder+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,669 INFO [dump-task] add task. groupKey=client.undo.dataValidation+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.dataValidation+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,675 INFO [dump-task] add task. groupKey=client.undo.logSerialization+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.logSerialization+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,683 INFO [dump-task] add task. groupKey=client.undo.onlyCareUpdateColumns+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.onlyCareUpdateColumns+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,689 INFO [dump-task] add task. groupKey=server.undo.logSaveDays+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.undo.logSaveDays+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,696 INFO [dump-task] add task. groupKey=server.undo.logDeletePeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.undo.logDeletePeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,704 INFO [dump-task] add task. groupKey=client.undo.logTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.logTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,711 INFO [dump-task] add task. groupKey=client.undo.compress.enable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.compress.enable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,719 INFO [dump-task] add task. groupKey=client.undo.compress.type+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.compress.type+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,726 INFO [dump-task] add task. groupKey=client.undo.compress.threshold+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=client.undo.compress.threshold+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,732 INFO [dump-task] add task. groupKey=tcc.fence.logTableName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=tcc.fence.logTableName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,740 INFO [dump-task] add task. groupKey=tcc.fence.cleanPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=tcc.fence.cleanPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,749 INFO [dump-task] add task. groupKey=log.exceptionRate+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=log.exceptionRate+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,755 INFO [dump-task] add task. groupKey=store.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,764 INFO [dump-task] add task. groupKey=store.lock.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.lock.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,770 INFO [dump-task] add task. groupKey=store.session.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.session.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,779 INFO [dump-task] add task. groupKey=store.file.dir+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.dir+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,790 INFO [dump-task] add task. groupKey=store.file.maxBranchSessionSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.maxBranchSessionSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,796 INFO [dump-task] add task. groupKey=store.file.maxGlobalSessionSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.maxGlobalSessionSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,809 INFO [dump-task] add task. groupKey=store.file.fileWriteBufferCacheSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.fileWriteBufferCacheSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,821 INFO [dump-task] add task. groupKey=store.file.flushDiskMode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.flushDiskMode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,828 INFO [dump-task] add task. groupKey=store.file.sessionReloadReadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.file.sessionReloadReadSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,835 INFO [dump-task] add task. groupKey=store.db.datasource+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.datasource+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,842 INFO [dump-task] add task. groupKey=store.db.dbType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.dbType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,850 INFO [dump-task] add task. groupKey=store.db.driverClassName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.driverClassName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,856 INFO [dump-task] add task. groupKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,861 INFO [dump-task] add task. groupKey=store.db.user+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.user+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,865 INFO [dump-task] add task. groupKey=store.db.password+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.password+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,871 INFO [dump-task] add task. groupKey=store.db.minConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.minConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,876 INFO [dump-task] add task. groupKey=store.db.maxConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.maxConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,882 INFO [dump-task] add task. groupKey=store.db.globalTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.globalTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,888 INFO [dump-task] add task. groupKey=store.db.branchTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.branchTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,894 INFO [dump-task] add task. groupKey=store.db.distributedLockTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.distributedLockTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,901 INFO [dump-task] add task. groupKey=store.db.queryLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.queryLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,908 INFO [dump-task] add task. groupKey=store.db.lockTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.lockTable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,913 INFO [dump-task] add task. groupKey=store.db.maxWait+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.maxWait+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,920 INFO [dump-task] add task. groupKey=store.redis.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,926 INFO [dump-task] add task. groupKey=store.redis.single.host+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.single.host+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,932 INFO [dump-task] add task. groupKey=store.redis.single.port+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.single.port+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,938 INFO [dump-task] add task. groupKey=store.redis.maxConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.maxConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,947 INFO [dump-task] add task. groupKey=store.redis.minConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.minConn+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:35,990 INFO [dump-task] add task. groupKey=store.redis.maxTotal+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.maxTotal+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,001 INFO [dump-task] add task. groupKey=store.redis.database+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.database+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,008 INFO [dump-task] add task. groupKey=store.redis.queryLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.redis.queryLimit+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,018 INFO [dump-task] add task. groupKey=server.recovery.committingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.recovery.committingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,029 INFO [dump-task] add task. groupKey=server.recovery.asynCommittingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.recovery.asynCommittingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,035 INFO [dump-task] add task. groupKey=server.recovery.rollbackingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.recovery.rollbackingRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,042 INFO [dump-task] add task. groupKey=server.recovery.timeoutRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.recovery.timeoutRetryPeriod+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,049 INFO [dump-task] add task. groupKey=server.maxCommitRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.maxCommitRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,057 INFO [dump-task] add task. groupKey=server.maxRollbackRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.maxRollbackRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,064 INFO [dump-task] add task. groupKey=server.rollbackRetryTimeoutUnlockEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.rollbackRetryTimeoutUnlockEnable+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,070 INFO [dump-task] add task. groupKey=server.distributedLockExpireTime+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.distributedLockExpireTime+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,076 INFO [dump-task] add task. groupKey=server.xaerNotaRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.xaerNotaRetryTimeout+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,082 INFO [dump-task] add task. groupKey=server.session.branchAsyncQueueSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.session.branchAsyncQueueSize+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,088 INFO [dump-task] add task. groupKey=server.session.enableBranchAsyncRemove+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.session.enableBranchAsyncRemove+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,094 INFO [dump-task] add task. groupKey=server.enableParallelRequestHandle+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=server.enableParallelRequestHandle+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,099 INFO [dump-task] add task. groupKey=metrics.enabled+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=metrics.enabled+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,106 INFO [dump-task] add task. groupKey=metrics.registryType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=metrics.registryType+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,112 INFO [dump-task] add task. groupKey=metrics.exporterList+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=metrics.exporterList+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:21:36,118 INFO [dump-task] add task. groupKey=metrics.exporterPrometheusPort+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=metrics.exporterPrometheusPort+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:30:10,065 INFO [dump-task] add task. groupKey=service.vgroupMapping.user-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.vgroupMapping.user-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:31:14,062 INFO [dump-task] add task. groupKey=service.vgroupMapping.borrow-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.vgroupMapping.borrow-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:31:31,587 INFO [dump-task] add task. groupKey=service.vgroupMapping.book-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=service.vgroupMapping.book-service-seata-service-group+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:39:18,151 INFO [dump-task] add task. groupKey=store.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:39:39,313 INFO [dump-task] add task. groupKey=store.session.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.session.mode+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:40:25,134 INFO [dump-task] add task. groupKey=store.db.driverClassName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.driverClassName+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:40:52,792 INFO [dump-task] add task. groupKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:41:06,856 INFO [dump-task] add task. groupKey=store.db.user+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.user+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:41:19,742 INFO [dump-task] add task. groupKey=store.db.password+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.password+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:46:17,735 INFO [dump-task] add task. groupKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
+
+2024-05-12 21:46:17,786 WARN [dump-ignore] ignore to save cache file. groupKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, md5=82895587a1427db7839afe723ee80c69, lastModifiedOld=1715521252788, lastModifiedNew=1715521577730
+
+2024-05-12 21:51:52,007 INFO [dump-task] add task. groupKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2, taskKey=store.db.url+SEATA_GROUP+4dc1823b-5f47-4ac5-af66-4f18a2edb1c2+false+null
 
