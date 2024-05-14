@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://8.149.141.81:3306/cloudstudy
-    username: test
+    url: jdbc:mysql://localhost:3306/cloudstudy
+    username: root
     password: P@ssW0rd
   application:
     name: user-service
@@ -13,3 +13,16 @@ spring:
       discovery:
         # 配置Nacos注册中心地址
         server-addr: localhost:8848
+security:
+  oauth2:
+    client:
+      #不多说了
+      client-id: web
+      client-secret: 654321
+      #Token获取地址
+      access-token-uri: http://localhost:8500/sso/oauth/token
+      #验证页面地址
+      user-authorization-uri: http://localhost:8500/sso/oauth/authorize
+    resource:
+      #Token信息获取和校验地址
+      token-info-uri: http://localhost:8500/sso/oauth/check_token
